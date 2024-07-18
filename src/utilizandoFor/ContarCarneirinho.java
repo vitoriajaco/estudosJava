@@ -7,5 +7,11 @@ public class ContarCarneirinho {
             System.out.println("Carneirinho " + carneirinhos + "..");
         }
         System.out.println("*** E dormiu...***");
+
+        int carneirinho = 0;
+        for ( ;carneirinho<=20; ) {
+            System.out.println("Contando " + carneirinho + " carneirinhos ....");
+            carneirinho++;
+        }
     }
 }
