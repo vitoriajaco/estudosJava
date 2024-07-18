@@ -8,7 +8,8 @@ public class Main {
         switch (sigla){
             case "P": {
                 System.out.println("Pequeno");
-                break;
+                break; //A necessidade de colocar o break é dada pq se não tiver ele acha o resultado esperado e
+                // executa todos os outros até achar o proximo break
             }
             case "M": {
                 System.out.println("Médio");
