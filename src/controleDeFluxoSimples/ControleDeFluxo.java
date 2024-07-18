@@ -1,3 +1,5 @@
+package controleDeFluxoSimples;
+
 public class ControleDeFluxo {
     public static void main(String[] args) {
         int maiorIdade = 18;
