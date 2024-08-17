@@ -4,7 +4,7 @@ public class UsingException {
     public static void main(String[] args) {
         try{
             // cenário otimista
-            Double valor = (double) (100/3);
+            Double valor = (double) (100/0);
             System.out.println(valor);
 
         }
