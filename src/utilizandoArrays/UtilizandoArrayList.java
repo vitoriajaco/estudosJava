@@ -12,6 +12,7 @@ public class UtilizandoArrayList {
         linguagens.add("Cobol");
         linguagens.add("C#");
         linguagens.add("Python");
+        linguagens.add(2, "Node.js");
 
         System.out.println("A lista de linguagens " + linguagens);
         System.out.println("A lista de linguagens está vazia? " + linguagens.isEmpty());
