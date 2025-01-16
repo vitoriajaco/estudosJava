@@ -11,11 +11,10 @@ public class Exercicio01 {
         System.out.println("Digite um numero que você quer comparar");
         int numero = scanner.nextInt();
 
-        if (numero > 0){
+        if (numero > 0) {
             System.out.println("O numero inserido é maior que zero");
-            if (numero < 0){
-                System.out.println("O numero inserido é menor que zero");
-            }
+        } else if (numero < 0) {
+            System.out.println("O numero inserido é menor que zero");
         } else
             System.out.println("O numero é igual a zero");
     }
