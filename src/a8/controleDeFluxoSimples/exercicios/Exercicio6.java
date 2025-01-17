@@ -14,8 +14,8 @@ public class Exercicio6 {
 
         Double quadradoDeAltura = altura * altura;
 
-        var imc = peso/quadradoDeAltura;
-        System.out.println(imc);
+        Double imc = peso/quadradoDeAltura;
+        System.out.println("O IMC é de: " + imc.intValue());
 
         if (imc >= 40){
             System.out.println("Obesidade morbida");
