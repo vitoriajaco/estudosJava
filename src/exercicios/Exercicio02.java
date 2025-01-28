@@ -1,6 +1,4 @@
-package a8.controleDeFluxoSimples.exercicios;
-
-import a7.orientacaoObjetos.OutrosExemplos.Sistem;
+package exercicios;
 
 import java.util.Scanner;
 

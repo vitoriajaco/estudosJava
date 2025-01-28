@@ -1,4 +1,4 @@
-package a8.controleDeFluxoSimples.exercicios;
+package exercicios;
 
 import java.util.Scanner;
 

@@ -5,13 +5,15 @@
       <map>
         <entry key="unauthenticated">
           <value>
-            <ProjectStateData />
+            <ProjectStateData>
+              <option name="projectId" value="01JJPGFBQ3TBNV1RF6NC7VQEC8" />
+            </ProjectStateData>
           </value>
         </entry>
         <entry key="vitoria.lima@zup.com.br">
           <value>
             <ProjectStateData>
-              <option name="conversationId" value="01JHRF3Q0A826YK7577SW5AS9E" />
+              <option name="conversationId" value="01JJPGH03GEQ9ZRPAHD7Y8YB3E" />
               <option name="indexedFiles">
                 <map>
                   <entry key="$PROJECT_DIR$/src/a8/controleDeFluxoSimples/exercicios/Exercicio7.java" value="17730" />
