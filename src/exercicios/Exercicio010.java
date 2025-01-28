@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio010 {
+public class Exercicio010 {
     // Faça um programa para converter um certo valor em dólar para reais
 
     public static void main(String[] args) {
