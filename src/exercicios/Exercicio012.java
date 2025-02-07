@@ -11,23 +11,29 @@ public class Exercicio012 {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o primeiro numero: ");
-        Double numero1 = scanner.nextDouble();
+        while (true) {
 
-        System.out.println("Digite o segundo numero: ");
-        Double numero2 = scanner.nextDouble();
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Digite o primeiro numero: ");
+            Double numero1 = scanner.nextDouble();
 
-        if ((numero1 >= 1 && numero1 <= 100)&& (numero2 >=1 && numero2 <=100)){
-            Double soma = (numero1 + numero2)/2;
-            System.out.println(soma);
+            System.out.println("Digite o segundo numero: ");
+            Double numero2 = scanner.nextDouble();
 
-        } else {
-            System.out.println("O numero que vc digitou esta incorreto");
-        }
+            boolean condicao = numero1 >= 1 && numero1 <= 100 && numero2 >= 1 && numero2 <= 100;
 
+            if (condicao) {
+                Double soma = (numero1 + numero2);
+                System.out.println(soma);
+                break;
+
+            } else {
+                System.out.println("O numero que vc digitou esta incorreto");
+                condicao = false;
+            }
 
 
         }
     }
+}
 

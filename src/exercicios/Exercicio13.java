@@ -1,5 +1,7 @@
 package exercicios;
 
+import java.util.Scanner;
+
 public class Exercicio13 {
    /* Escreva uma programa que lê o sexo de uma
     pessoa. O sexo deverá ser com o tipo de dado
