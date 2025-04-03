@@ -6,21 +6,15 @@ public class Medico extends Pessoa {
 
     String especialidade;
 
-    public Medico(String matricula, String especialidade) {
-        super();
+    public Medico(String nome, int idade, int documento, String matricula, String especialidade) {
+        super(nome, idade, documento);
         this.matricula = matricula;
         this.especialidade = especialidade;
     }
 
     @Override
     public String toString() {
-        return "Medico{" +
-                "matricula='" + matricula + '\'' +
-                ", especialidade='" + especialidade + '\'' +
-                ", nome='" + nome + '\'' +
-                ", idade=" + idade +
-                ", documento=" + documento +
-                '}';
+        return super.toString() + ", Medico [documento" + this.documento + ", especialidade=" + this.especialidade + "]";
     }
 
     public String getMatricula() {

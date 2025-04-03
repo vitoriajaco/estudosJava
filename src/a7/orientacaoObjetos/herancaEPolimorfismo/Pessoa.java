@@ -7,6 +7,12 @@ public class Pessoa {
 
     int documento;
 
+    public Pessoa(String nome, int idade, int documento) {
+        this.nome = nome;
+        this.idade = idade;
+        this.documento = documento;
+    }
+
     @Override
     public String toString() {
         return "Pessoa{" +

@@ -21,8 +21,8 @@ public class Paciente extends Pessoa {
                 '}';
     }
 
-    public Paciente(String planoDeSaude, String prontuario) {
-        super();
+    public Paciente(String nome, int idade, int documento, String planoDeSaude, String prontuario) {
+        super(nome, idade, documento);
         this.planoDeSaude = planoDeSaude;
         this.prontuario = prontuario;
     }
