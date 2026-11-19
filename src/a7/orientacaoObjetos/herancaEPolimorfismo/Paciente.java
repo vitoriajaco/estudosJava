@@ -1,6 +1,6 @@
 package a7.orientacaoObjetos.herancaEPolimorfismo;
 
-public class Paciente extends Pessoa {
+public class Paciente extends Pessoa { //Classe derivada ou subclasse
 
     String planoDeSaude;
 
@@ -22,9 +22,9 @@ public class Paciente extends Pessoa {
     }
 
     public Paciente(String nome, int idade, int documento, String planoDeSaude, String prontuario) {
-        super(nome, idade, documento);
-        this.planoDeSaude = planoDeSaude;
-        this.prontuario = prontuario;
+        super(nome, idade, documento); //utiliza-se o super apontando quais atributos se quer herdar da classe pai
+        this.planoDeSaude = planoDeSaude; //o super so herda atributos que estao publicos. Caso estejam privados nao é possivel acessar nem com o super()
+        this.prontuario = prontuario; //
     }
 
     public void setPlanoDeSaude(String planoDeSaude) {

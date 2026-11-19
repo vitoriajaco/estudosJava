@@ -1,6 +1,6 @@
 package a7.orientacaoObjetos.herancaEPolimorfismo;
 
-public class Pessoa {
+public class Pessoa { //Superclasse -> É Herdada de outras classes - esse processo tem o nome de Generalização.
 
     String nome;
     int idade;
